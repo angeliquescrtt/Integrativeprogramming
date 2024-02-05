@@ -75,7 +75,7 @@
         document.getElementById("name").innerHTML = "<span>Name of Student: </span>" + studentName;
         document.getElementById("grade").innerHTML = "<span>Grade: </span>" + studentGrade;
         const dateEnrolled = document.getElementById("date");
-        dateEnrolled.innerHTML = "<span>Date Enrolled: </span>" + date.toDateString();
+        dateEnrolled.innerHTML = "<span>Date Enrolled: </span>" + date.toLocaleDateString();
         document.getElementById("hobbies").innerHTML = "<span>Hobbies: </span>" + hobbies.join(", ");
     </script>
     </div>
